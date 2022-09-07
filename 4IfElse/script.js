@@ -23,3 +23,8 @@ if(age<18){
 //ternary operator too
 let voteEligibility = hasVoterCard==false ? "can't" : "can";
                                             //true      //false
+// nullish coalescing operator
+let user;
+user = "Siddharth";
+alert(user ?? "Guest User"); //incase user is undefined....helpful....
+                                            
