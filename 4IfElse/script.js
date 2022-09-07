@@ -19,3 +19,7 @@ if(age<18){
         console.log("Get yourself a voter card");
     }
 }
+
+//ternary operator too
+let voteEligibility = hasVoterCard==false ? "can't" : "can";
+                                            //true      //false
