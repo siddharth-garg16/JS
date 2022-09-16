@@ -55,7 +55,14 @@ let person3 = {
     name:"Random",
     age: 23,
     sayHello(){
-        console.log("Hello");
+        console.log("Hello! My name is "+ this.name +" and I have a" + " " + car.model);
     }
 };
+
+//this keyword
+let car = {
+    brand:"Tata",
+    model:"Harrier"
+};
 person3.sayHello();
+
