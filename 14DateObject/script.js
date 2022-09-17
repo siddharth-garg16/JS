@@ -6,3 +6,5 @@ console.log(x.getDate());
 console.log(x.getMonth());
 console.log(x.getYear());
 console.log(x.getTime());
+
+// we have set fucntions too--just like get
