@@ -7,6 +7,7 @@ function Student(first, last, age, cur_class){
     this.age = age;
     this.class = cur_class
 }
+Student.prototype.marks = 0; //added property after the definition of student object
 
 var student1 = new Student('Siddharth', 'Garg', 22, 9);
 var student2 = new Student('Sid', 'Boi', 23, 10);
