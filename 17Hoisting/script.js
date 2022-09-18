@@ -7,7 +7,8 @@ function hello(){
 // no issues here unlike other programming languages---JS first read all the content and then executs even if compiler based...this is hoisting
 
 
-//hoisting in variable---can only do this with var----not let and const
+//hoisting in variable---
+// can do with var without error because it initialise it to undefined at declaration...let and constt doesnt initialize at the declaration so it will give error while hoisting
 x=7;
 console.log(x);
 var x; //will o/p 7
