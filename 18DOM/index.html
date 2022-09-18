@@ -43,7 +43,7 @@
         for(let i=0; i<head.length; i++){
             head[i].innerHTML = "Updated Heading";
         }
-        let subhead = div1.getElementsByTagName("h2");
+        let subhead = div1.getElementsByTagName("h2"); //prevented updation of all h2--only h2 in div1 are updated
         for(let i=0; i<head.length; i++){
             subhead[i].innerHTML = "Updated SubHeading";
         } //don't use tag in innerhtml here...like we did in id and class
