@@ -1,0 +1,1 @@
+//Query Selector --- powerful selector
