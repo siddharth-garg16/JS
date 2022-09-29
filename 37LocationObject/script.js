@@ -13,5 +13,6 @@ function fun(){
 }
 
 location.replace("https://www.google.com"); //no back button to go to previous page
+location.reload(); //reload page
 
 
