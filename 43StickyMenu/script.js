@@ -1,0 +1,9 @@
+//height of logo is 304px inspected
+window.addEventListener("scroll", function(){
+    let navbar = document.getElementById("menu-bar");
+    if(window.pageYOffset>=304){
+        navbar.classList.add("sticky");
+    }else{
+        navbar.classList.remove("sticky");
+    }
+})
