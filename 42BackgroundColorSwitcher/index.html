@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <title>Color Switcher</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 20px 100px;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+        p{
+            font-size: 18px;
+            text-align: justify;
+        }
+        .btn{
+            width: 25px;
+            height: 25px;
+            display: inline-block;
+            border: solid grey 2px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        #white{
+            background-color: white;
+        }
+        #aqua{
+            background-color: aquamarine;
+        }
+        #violet{
+            background-color:violet;
+        }
+        #black{
+            background-color: black;
+        }
+        #color-switcher{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text">Color Switcher</h1>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nulla, velit amet harum illo ad voluptates aperiam quia accusamus odio laudantium ex rem consequatur explicabo quo natus. Placeat nemo dolore labore dolorem quia quae neque iure, officiis sed repellat nam eius? Eaque sapiente quaerat alias, ea quis magnam nam reprehenderit maxime ut quam consequatur. Assumenda dolorem perferendis incidunt blanditiis labore nihil ad reiciendis, officia inventore. Quo, fuga perferendis! Consectetur porro reprehenderit pariatur, quasi ea doloribus cumque facere. Cupiditate possimus, recusandae fugiat inventore aut, praesentium omnis nobis unde similique a explicabo ut quae voluptas quod iusto excepturi esse nemo saepe! Repellendus dolor, incidunt quidem quos ipsam necessitatibus eaque consequatur adipisci non dolores sapiente magni unde maiores consequuntur iste architecto facilis libero? Officiis ducimus beatae dicta. Non recusandae facere consequuntur cumque repellendus a minima iste tempora officiis voluptatum obcaecati corrupti consectetur sequi inventore porro maxime nam sed, illo magnam, saepe vitae animi error? Maxime est, voluptas tempora explicabo tempore omnis, animi possimus quasi consequuntur, consequatur eveniet. Provident minus soluta eos minima animi sapiente, laboriosam ullam dolorum eius sint at impedit repudiandae maiores voluptatum officia iure. Pariatur, laboriosam expedita. Enim harum omnis, velit quis beatae laboriosam esse! Similique ratione molestias minus ipsum, pariatur repellat sed ipsam eum. Placeat eos soluta error cupiditate ipsa praesentium, voluptas quae quam at neque voluptatum blanditiis, nobis porro, voluptates iste atque fugit consectetur exercitationem? Aliquam, commodi odit sapiente mollitia repellendus laborum recusandae magni porro voluptatibus rem, id temporibus optio maiores, fugit nulla ipsa doloribus at! Dolor ad distinctio iure aliquam sunt qui quas consectetur? Quod, sed iure? Nulla, fugit! Minima doloribus neque, numquam obcaecati beatae consequuntur sunt iure id corrupti debitis, magni omnis temporibus itaque aspernatur exercitationem, quis repellat sint porro ratione eveniet. Cum at ea deserunt est quas quo illo eligendi, autem animi perspiciatis dicta architecto eaque.</p>
+    <div id="color-switcher">
+        <span class="btn" id="white" onclick="changeBG('#ffffff')"></span>
+        <span class="btn" id="aqua" onclick="changeBG('#7fffd4')"></span>
+        <span class="btn" id="violet" onclick="changeBG('#ce9aff')"></span>
+        <span class="btn" id="black" onclick="changeBG('#000000')"></span>
+    </div>
+</body>
+</html>
