@@ -10,3 +10,5 @@ let mystr = "SID";
 for(let char of mystr){
     console.log(char);
 }
+
+//like for in python
