@@ -67,7 +67,7 @@ PersonInh.prototype.fullName = function(){
     console.log(this.firstName+" "+this.lastName);
 }
 
-PersonInh.prototype = Object.create(Creature.prototype); // change in attachment--see diagrams
+PersonInh.prototype.__proto__ = Object.create(Creature.prototype); // change in attachment--see diagrams
 
 let personX = new PersonInh("s", "g", 10, "m");
 personX.breath();
