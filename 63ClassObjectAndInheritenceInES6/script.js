@@ -102,3 +102,5 @@ console.log(mng1);
 // mng1.msg(); //no error--inherited method
 mng1.info(); //no error
 //if we have to call msg() inside info() we'll have to use super--just like name property inside constructor of manager
+
+// we can perform multiple or multilevel inheritence too---do------
