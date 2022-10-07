@@ -42,8 +42,32 @@ function PersonS(firstName, lastName, age, sex){
 }
 PersonS.prototype.fullName = function(){
     console.log(this.firstName+" "+this.lastName);
-}
+}//we can write properties like this too
 let person5 = new PersonS("Unknown", "Unknown", 33, "M");
 console.log(person5);
 //you can see the change in expansion of person3,4 and person 5---it will how the chaining will work to search and execute the method fullname....difference in ss in diagrams
 
+//prototypal inheritence
+function Creature(ls){
+    this.lifespan = ls;
+}
+Creature.prototype.breath = function(){
+    console.log("Breathing");
+}
+let creature1 = new Creature(100);
+creature1.breath();
+
+function PersonInh(firstName, lastName, age, sex){
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.sex = sex
+}
+PersonInh.prototype.fullName = function(){
+    console.log(this.firstName+" "+this.lastName);
+}
+
+PersonInh.prototype = Object.create(Creature.prototype); // change in attachment--see diagrams
+
+let personX = new PersonInh("s", "g", 10, "m");
+personX.breath();
