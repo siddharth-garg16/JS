@@ -1,0 +1,11 @@
+{
+    "name":"Siddharth",
+    "age":22,
+    "language":["C++", "Python", "JavaScript"],
+    "address":{
+        "house":100,
+        "street":"Random",
+        "city":"Unknown"
+    }
+}
+

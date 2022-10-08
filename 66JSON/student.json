@@ -1,0 +1,16 @@
+{
+    "students":[
+        {
+            "name":"A",
+            "roll":1
+        },
+        {
+            "name":"B",
+            "roll":2
+        },
+        {
+            "name":"C",
+            "roll":3
+        }
+    ]
+}
